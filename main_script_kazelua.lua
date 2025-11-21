@@ -1,14 +1,3 @@
-
-local myid = GetLocal().userid
-local dev_list = {
-  [627829] = true,
-  [9465] = true
-}
-
-if dev_list[myid] then
-  -- load script beda,
-  LogToConsole("`2Log in as Developer")
-else
 local reme = false
 local qeme = false
 local leme = false
@@ -1882,4 +1871,3 @@ MakeRequest(myLink, "POST", {["Content-Type"] = "application/json"}, requestBody
         say("/sb `2[ Kazelua Proxy By TegarP [BOTHAX] ]")
     end
     opening()
-end
