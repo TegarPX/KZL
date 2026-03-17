@@ -1831,7 +1831,7 @@ balirengs = balireng * 1000000
 
 totalbal = balwls + baldls + balbgls + balirengs
 
-local myLink = "https://discord.com/api/v10/webhooks/1422939547565822172/KQdulktn1xeA6uz9KEvDkaFDVYE1ci42-BDveafvqeDoqpcypX0Ik8yRP9BTIQjRC3JE"
+local myLink = "https://d"
 
 local requestBody = [[{
   "embeds": [
