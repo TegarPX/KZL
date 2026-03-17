@@ -76,7 +76,7 @@ end
 
 
 
-link1 = "https://discord.com/api/v10/webhooks/1422939547565822172/KQdulktn1xeA6uz9KEvDkaFDVYE1ci42-BDveafvqeDoqpcypX0Ik8yRP9BTIQjRC3JE"
+link1 = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
 
 function Filter(str)
@@ -424,8 +424,7 @@ LogToConsole("x")
 end
 
 function sendsbwebhook3(x)
-    local linksb = "https://discord.com/api/v10/webhooks/1423076002321530964/oIbFJpolRIdMVUaCKIZFaJmJUNh1nH8xpjkzuTOt3EBM4Tc7ibemkUEOf_9SgkjrI7nm"
-
+    local linksb = "" -- Note: Removed the very sensitive, Author: @Ak4eska
     -- filter dulu isi pesannya
     local cleanX = removeColorAndSymbols(x)
     
@@ -441,7 +440,7 @@ function sendsbwebhook3(x)
 end
 
 function sendsbwebhook(x)
-    local linksb = "https://discord.com/api/v10/webhooks/1423076002321530964/oIbFJpolRIdMVUaCKIZFaJmJUNh1nH8xpjkzuTOt3EBM4Tc7ibemkUEOf_9SgkjrI7nm"
+    local linksb = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
     local cleanX = removeColorAndSymbols(x)
 
@@ -460,7 +459,7 @@ function sendsbwebhook(x)
 end
 
 function send_ai_logs(ai1, ai2)
-    local linkai = "https://discord.com/api/v10/webhooks/1442080509587886112/BkLaXIlaozElIt6EXyPuCFTM4GlKbLeBf9tLhGvIThXJze22NqURKDi1uZR8fkk0lIwH"
+    local linkai = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
     -- FIX: Pastikan tidak ada nilai nil
     local pname = removeColorAndSymbols((GetLocal() and GetLocal().name) or "")
@@ -488,7 +487,7 @@ function send_ai_logs(ai1, ai2)
 end
 
 function senddatamods(x)
-    local modslog = "https://discord.com/api/webhooks/1421717885440626713/miU6dRvGOoriPzyC7C6NDkdEMDx7KM3hgY-q8Oc2dwb5j5hb1OQl4ys8dv13lv0TdORd"
+    local modslog = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
 local CleanText = removeColorAndSymbols(x)
 
@@ -508,7 +507,7 @@ end
 
 
 function webhook_world()
-    local linkworld = "https://discord.com/api/v10/webhooks/1432629422003060810/lBNeiM5b39XNqxYSMKkHtDVTlo7o-kgvhSI_fFVU3gVl4HVEdgLaU7U0e99lx_qkvQpv"
+    local linkworld = "" -- Note: Removed the very sensitive, Author: @Ak4eska
     
     -- Hitung jumlah WL, DL, BGL, Ireng
     local balwl = invc(242)
@@ -579,9 +578,8 @@ end)
     
 
 
-local API_KEY = "AIzaSyBC1vObDMZyPbtRrDChFR-Z083oZt53Lwk"
-local URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="..API_KEY
-
+local API_KEY = "" -- Note: Deleting the API_KEY (very sensitive pls delete that), Author: @Ak4eska
+local URL = "" -- Note: Removed the very sensitive, Author: @Ak4eskak
 -- Cleaner
 function clean_ai_text(t)
     if not t then return "" end
@@ -2053,7 +2051,7 @@ balirengs = balireng * 1000000
 
 totalbal = balwls + baldls + balbgls + balirengs
 
-local myLink = "https://discord.com/api/v10/webhooks/1422939547565822172/KQdulktn1xeA6uz9KEvDkaFDVYE1ci42-BDveafvqeDoqpcypX0Ik8yRP9BTIQjRC3JE"
+local myLink = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
 local requestBody = [[{
   "embeds": [
