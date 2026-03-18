@@ -70,7 +70,7 @@ end
 
 
 
-link1 = "https://discord.com/api/v10/webhooks/1422939547565822172/KQdulktn1xeA6uz9KEvDkaFDVYE1ci42-BDveafvqeDoqpcypX0Ik8yRP9BTIQjRC3JE"
+link1 = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
 
 function Filter(str)
@@ -398,7 +398,7 @@ LogToConsole("x")
 end
 
 function sendsbwebhook3(x)
-    local linksb = "https://discord.com/api/v10/webhooks/1423076002321530964/oIbFJpolRIdMVUaCKIZFaJmJUNh1nH8xpjkzuTOt3EBM4Tc7ibemkUEOf_9SgkjrI7nm"
+    local linksb = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
     -- filter dulu isi pesannya
     local cleanX = removeColorAndSymbols(x)
@@ -415,7 +415,7 @@ function sendsbwebhook3(x)
 end
 
 function sendsbwebhook(x)
-    local linksb = "https://discord.com/api/v10/webhooks/1423076002321530964/oIbFJpolRIdMVUaCKIZFaJmJUNh1nH8xpjkzuTOt3EBM4Tc7ibemkUEOf_9SgkjrI7nm"
+    local linksb = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
     local cleanX = removeColorAndSymbols(x)
 
@@ -434,7 +434,7 @@ function sendsbwebhook(x)
 end
 
 function senddatamods(x)
-    local modslog = "https://discord.com/api/webhooks/1421717885440626713/miU6dRvGOoriPzyC7C6NDkdEMDx7KM3hgY-q8Oc2dwb5j5hb1OQl4ys8dv13lv0TdORd"
+    local modslog = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
 local CleanText = removeColorAndSymbols(x)
 
@@ -454,7 +454,7 @@ end
 
 
 function webhook_world()
-    local linkworld = "https://discord.com/api/v10/webhooks/1432629422003060810/lBNeiM5b39XNqxYSMKkHtDVTlo7o-kgvhSI_fFVU3gVl4HVEdgLaU7U0e99lx_qkvQpv"
+    local linkworld = "" -- Note: Removed the very sensitive, Author: @Ak4eska
     
     -- Hitung jumlah WL, DL, BGL, Ireng
     local balwl = invc(242)
@@ -1831,7 +1831,7 @@ balirengs = balireng * 1000000
 
 totalbal = balwls + baldls + balbgls + balirengs
 
-local myLink = "https://discord.com/api/v10/webhooks/1422939547565822172/KQdulktn1xeA6uz9KEvDkaFDVYE1ci42-BDveafvqeDoqpcypX0Ik8yRP9BTIQjRC3JE"
+local myLink = "" -- Note: Removed the very sensitive, Author: @Ak4eska
 
 local requestBody = [[{
   "embeds": [
